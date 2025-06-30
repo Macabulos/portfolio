@@ -226,7 +226,7 @@
 
         .about-me p {
             margin-bottom: 1.5rem;
-            text-indent: 50px;
+         
             text-align: justify;
             font-size: 1.1rem;
             color: var(--text);
