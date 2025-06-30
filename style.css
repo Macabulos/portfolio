@@ -36,7 +36,7 @@
             /* Light Mode Colors */
             --primary-light: #4361ee;
             --secondary-light: #3a0ca3;
-            --accent-light: #130f11;
+            --accent-light: #631338;
             --light-light: #f8f9fa;
             --dark-light: #212529;
             --text-light: #2d3748;
@@ -112,17 +112,18 @@
             color: var(--dark);
         }
 
+       /* Updated Nav Hover Colors */
         nav ul li a:hover {
-            color: var(--dark);
-            background: linear-gradient(45deg, var(--accent), var(--primary));
+            color: white;
+            background: linear-gradient(45deg, #cfc1c1, #3a5f8a);
             transform: translateY(-3px);
-            box-shadow: 0 5px 15px rgba(109, 152, 186, 0.3);
+            box-shadow: 0 5px 15px rgba(155, 147, 147, 0.3);
         }
 
-        nav ul li a.active {
-            color: var(--dark);
-            background: linear-gradient(45deg, var(--accent), var(--primary));
-        }
+        /* nav ul li a.active {
+            color: white;
+            background: linear-gradient(45deg, #ab6bff, #1b1a1a);
+        } */
 
         /* Theme Toggle Button */
         .theme-toggle {
@@ -676,7 +677,7 @@
             }
 
             .theme-toggle {
-                top: 1rem;
+                top: 95%;
                 right: 1rem;
                 width: 35px;
                 height: 35px;
