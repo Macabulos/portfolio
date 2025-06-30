@@ -226,6 +226,8 @@
 
         .about-me p {
             margin-bottom: 1.5rem;
+            text-indent: 50px;
+            text-align: justify;
             font-size: 1.1rem;
             color: var(--text);
         }
@@ -309,6 +311,8 @@
             margin-bottom: 1.5rem;
             font-size: 1.1rem;
             color: var(--text);
+             /* text-indent: 50px; */
+            text-align: justify;
         }
 
         .about-content ul {
@@ -408,6 +412,7 @@
             margin-bottom: 1.5rem;
             font-size: 0.95rem;
             opacity: 0.8;
+            text-align: justify;
         }
 
         body.light-mode .project-info p {
@@ -662,6 +667,7 @@
             }
 
             .profile-image, .about-me {
+                margin-top: 40px;
                 min-width: 100%;
                 max-width: 100%;
             }
