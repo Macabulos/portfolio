@@ -658,7 +658,7 @@
         @media (max-width: 768px) {
             .container {
                 flex-direction: column;
-                margin-top: 5rem;
+                margin-top: 20rem;
             }
 
             .profile-image, .about-me {
