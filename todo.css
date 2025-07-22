@@ -1,0 +1,29 @@
+body {
+  font-family: sans-serif;
+}
+
+#taskList {
+  list-style-type: none;
+  padding: 0;
+}
+
+.task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.task.completed {
+  text-decoration: line-through;
+  color: #aaa;
+}
+
+.delete-btn {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
